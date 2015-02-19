@@ -10,6 +10,8 @@
 #import "Contador.h"
 
 
+//esse e o contador
+
 @implementation Contador {
     int boy;
     int girl;
@@ -38,6 +40,8 @@
 -(int)getGirls {
     return girl;
 }
+
+
 
 
 
