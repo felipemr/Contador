@@ -21,6 +21,7 @@
     Contador *c = [[Contador alloc] init];
     [c maisUmCueca];
     XCTAssert(([c getBoys] == 1), @"Pass");
+    XCTAssert(([c getGirls] == 0), @"Pass");
 }
 
 - (void)testContaMeninas {
@@ -30,5 +31,15 @@
     XCTAssert(([c getBoys] == 0), @"Pass");
 }
 
+
+- (void)testGetTotal {
+    Contador *c = [[Contador alloc] init];
+    [c maisUmaGata];
+    [c maisUmCueca];
+    [c maisUmCueca];
+    XCTAssert(([c getGirls] == 1), @"Pass");
+    XCTAssert(([c getBoys] == 2), @"Pass");
+    XCTAssert(([c getTotal] == 3), @"Pass");
+}
 
 @end

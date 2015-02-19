@@ -40,6 +40,9 @@
 -(int)getGirls {
     return girl;
 }
+-(int)getTotal{
+    return [self getBoys]+[self getGirls];
+}
 
 
 
