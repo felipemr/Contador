@@ -6,8 +6,12 @@
 //  Copyright (c) 2015 Vinicius Miana. All rights reserved.
 //
 
+#import "Mostrador.h"
+#import <Foundation/Foundation.h>
+
 @interface Contador : NSObject
 
+@property (weak) id <Mostrador> delegate;
 
 +(Contador *)instancia;
 - (void)maisUmCueca;

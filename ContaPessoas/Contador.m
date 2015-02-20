@@ -38,9 +38,11 @@ static Contador *_instancia=nil;
 
 - (void)maisUmCueca {
     boy = boy + 1;
+    [_delegate atualiza];
 }
 - (void)maisUmaGata {
     girl++;
+    [_delegate atualiza];
 }
 
 -(int)getBoys {
@@ -50,11 +52,10 @@ static Contador *_instancia=nil;
 -(int)getGirls {
     return girl;
 }
+
 -(int)getTotal{
     return [self getBoys]+[self getGirls];
 }
-
-
 
 
 

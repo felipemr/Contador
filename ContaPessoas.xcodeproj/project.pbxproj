@@ -51,7 +51,8 @@
 		27A199D01A94B501008DC684 /* boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boy.png; sourceTree = "<group>"; };
 		27A199D21A94D1FA008DC684 /* Contador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contador.m; sourceTree = "<group>"; };
 		27A199D41A94D22B008DC684 /* Contador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contador.h; sourceTree = "<group>"; };
-		27A199D51A94D821008DC684 /* ContadorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContadorTests.m; sourceTree = "<group>"; };
+		27A199D51A94D821008DC684 /* ContadorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContadorTests.m; path = ContaPessoasTests/ContadorTests.m; sourceTree = SOURCE_ROOT; };
+		6EA5045D1A97925E004F5BE1 /* Mostrador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mostrador.h; path = ../Mostrador.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 				27A199B01A94B2A8008DC684 /* Main.storyboard */,
 				27A199B31A94B2A8008DC684 /* Images.xcassets */,
 				27A199B51A94B2A8008DC684 /* LaunchScreen.xib */,
+				6EA5045D1A97925E004F5BE1 /* Mostrador.h */,
 				27A199A31A94B2A8008DC684 /* Supporting Files */,
 				27A199D21A94D1FA008DC684 /* Contador.m */,
 				27A199D41A94D22B008DC684 /* Contador.h */,
@@ -124,8 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				27A199C21A94B2A8008DC684 /* ContaPessoasTests.m */,
-				27A199C01A94B2A8008DC684 /* Supporting Files */,
 				27A199D51A94D821008DC684 /* ContadorTests.m */,
+				27A199C01A94B2A8008DC684 /* Supporting Files */,
 			);
 			path = ContaPessoasTests;
 			sourceTree = "<group>";
@@ -438,6 +440,7 @@
 				27A199C81A94B2A8008DC684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27A199C91A94B2A8008DC684 /* Build configuration list for PBXNativeTarget "ContaPessoasTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +449,7 @@
 				27A199CB1A94B2A8008DC684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
